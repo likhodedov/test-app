@@ -20,8 +20,9 @@ namespace WebApplication1.Controllers
         {
           string[] hello =  new string[] { Name, Description };
             return hello;
-        }
 
+        }
+        
         // POST api/<controller>
         public void Post([FromBody]string value)
         {
